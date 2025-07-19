@@ -1,282 +1,139 @@
 body{
     background-color: #121212;
-    
-}
-
-.logo
-{
-    position: absolute;
-    width: 135px;
-    height: 22px;
-    left: calc(50% - 135px/2 - 522.5px);
-    top: 30px;
-
-    font-family: 'Roboto', sans-serif;
-    font-style: 300;
-    
-    font-size: 18px;
-    line-height: 19px;
-
     color: #F5F5F7;
-    text-decoration: none;
-
-    
-}
-
-
-.about
-{
-    position: absolute;
-    width: auto;
-    height: 19px;
-    left: calc(50% - 49px/2 + 401.5px);
-    top: 30px;
-
     font-family: 'Roboto', sans-serif;
-    font-style: 300;
-    
-    font-size: 18px;
-    line-height: 19px;
-
-    color: #F5F5F7;
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
-.contact
-{
-    position: absolute;
-    width: auto;
-    height: 19px;
-    left: calc(50% - 95px/2 + 542.17px);
-    top: 30px;
-
-    font-family: 'Roboto', sans-serif;
-    font-style: 300;
-    
-    font-size: 18px;
-    line-height: 19px;
-
-    color: #F5F5F7;
-    text-decoration: none;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
 }
 
-.hero-text
-{
-    position: absolute;
-    width: 785px;
-    height: 282px;
-    left: calc(50% - 785px/2 - 197.5px);
-    top: 450px;
+.logo {
+    font-size: 18px;
+    text-decoration: none;
+    color: #F5F5F7;
+}
 
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #F5F5F7;
+    margin-left: 20px;
+}
+
+.hero-text {
     font-family: 'Playfair Display', sans-serif;
-    font-style: 300;
     font-weight: bold;
     font-size: 120px;
-    line-height: 136px;
-
-    color: #F2F2F7;
+    text-align: center;
+    margin: 100px 0;
 }
 
-.left-text-2
-{
-    position: absolute;
-    width: 580px;
-    height: 132px;
-    left: calc(50% - 580px/2 - 300px);
-    top: 1062px;
+.section, .section-2, .section-3, .section-4, .section-5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+}
 
-    font-family: 'Roboto', sans-serif;
-    font-style: 300;
-    font-weight: 300;
+.left-text, .right-text,
+.left-text-2, .right-text-2,
+.left-text-3, .right-text-3,
+.left-text-4, .right-text-4,
+.left-text-5, .right-text-5,
+.right-text-5-1 {
+    flex: 1 1 45%;
+    min-width: 300px;
+}
+
+.left-text-2 {
     font-size: 36px;
-    line-height: 42px;
-
-    color: #F2F2F7;
 }
 
-.right-text-2
-{
-    position: absolute;
-    width: 580px;
-    height: 54px;
-    left: calc(50% - 580px/2 + 300px);
-    top: 1282px;
-
-    font-family: 'Roboto', sans-serif;
-    font-style: 300;
-    font-weight: 300;
+.right-text-2 {
     font-size: 18px;
-    line-height: 150%;
-    /* or 27px */
-
-
-    color: #F2F2F7;
 }
 
-.section-3
-{
-    height: 1000px;
-}
-
-.left-text-3
-{
-    position: absolute;
-    width: 580px;
-    height: 36px;
-    left: calc(50% - 580px/2 - 300px);
-    top: 1646px;
-
+.left-text-3 {
     font-family: 'Playfair Display', sans-serif;
-    font-style: 300;
-    font-weight: 300;
     font-size: 24px;
-    line-height: 150%;
-    /* identical to box height, or 36px */
-
-
-    color: #F2F2F7;
-
-
-    /* Inside Auto Layout */
-
-    
 }
 
-.right-text-3
-{
-    position: absolute;
-    width: 580px;
-    height: 396px;
-    left: calc(50% - 580px/2 + 300px);
-    top: 1646px;
-
-    font-family: 'Roboto', sans-serif;
-    font-style: 300;
-    font-weight: 300;
+.right-text-3 {
     font-size: 24px;
-    line-height: 150%;
-    /* or 36px */
-
-
-    color: #F2F2F7;
 }
 
-.left-text-4
-{
-    position: absolute;
-    width: 580px;
-    height: 162px;
-    left: calc(50% - 580px/2 - 300px);
-    top: 2352px;
-
+.left-text-4 {
     font-family: 'Playfair Display', sans-serif;
-    font-style: 300;
-    font-weight: 300;
     font-size: 36px;
-    line-height: 150%;
-    /* or 54px */
-
-
-    color: #F2F2F7;
 }
 
-.right-text-4
-{
-    position: absolute;
-    width: 580px;
-    height: 108px;
-    left: calc(50% - 580px/2 + 300px);
-    top: 2626px;
-
-    font-family: 'Roboto', sans-serif;
-    font-style: 300;
-    font-weight: 300;
+.right-text-4 {
     font-size: 24px;
-    line-height: 150%;
-    /* or 36px */
-
-
-    color: #F2F2F7;
 }
 
-.left-text-5
-{
-    position: absolute;
-    width: 1180px;
-    height: 54px;
-    left: calc(50% - 1180px/2);
-    top: 2977px;
-
-    font-family: 'Roboto', sans-serif;
-    font-style: 300;
-    font-weight: 300;
+.left-text-5 {
     font-size: 36px;
-    line-height: 150%;
-    /* identical to box height, or 54px */
+}
 
+.right-text-5 {
+    font-size: 24px;
+}
 
+.right-text-5-1 {
+    font-size: 36px;
+    text-decoration: underline;
     color: #F2F2F7;
 }
 
-.right-text-5
-{
-    position: absolute;
-    width: 580px;
-    height: 216px;
-    left: calc(50% - 580px/2 + 300px);
-    top: 3251px;
-
+.functionality {
     font-family: 'Roboto', sans-serif;
-    font-style: 300;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 150%;
-    /* or 36px */
-
-
-color: #F2F2F7;
 }
 
-.functionality
-{
-    font-family: 'Roboto', sans-serif;
-    
-}
-
-.aesthetics
-{
+.aesthetics {
     font-family: 'Playfair Display', sans-serif;
-    
 }
 
-.tsr
-{
+.tsr {
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
 }
 
-.right-text-5-1
-{
-    position: absolute;
-    width: 580px;
-    height: 54px;
-    left: calc(50% - 580px/2 + 300px);
-    top: 3529px;
-
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 150%;
-    /* identical to box height, or 54px */
-
-    text-decoration-line: underline;
-
-    color: #F2F2F7;
+.nothing {
+    display: none;
 }
-.nothing-text
-{
-    position: absolute;
-    height: 1000px;
-    top : 4000px;
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+
+    .hero-text {
+        font-size: 60px;
+        margin: 50px 0;
+    }
+
+    .section, .section-2, .section-3, .section-4, .section-5 {
+        padding: 20px;
+    }
+
+    .left-text, .right-text,
+    .left-text-2, .right-text-2,
+    .left-text-3, .right-text-3,
+    .left-text-4, .right-text-4,
+    .left-text-5, .right-text-5,
+    .right-text-5-1 {
+        flex: 1 1 100%;
+    }
 }
